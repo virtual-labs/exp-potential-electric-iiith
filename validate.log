@@ -1,0 +1,14 @@
+{
+  _: [],
+  f: [
+    '/home/runner/work/exp-built-in-potential-electric-field-iiith/exp-built-in-potential-electric-field-iiith/experiment-descriptor.json'
+  ],
+  files: [
+    '/home/runner/work/exp-built-in-potential-electric-field-iiith/exp-built-in-potential-electric-field-iiith/experiment-descriptor.json'
+  ],
+  '$0': 'validate'
+}
+Json Error: There are additional properties
+Json Error: must match "then" schema
+Failed while validating /home/runner/work/exp-built-in-potential-electric-field-iiith/exp-built-in-potential-electric-field-iiith/experiment-descriptor.json
+Error: Schema is Invalid
