@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Match the Following</title>
+  <link rel="stylesheet" href="css/em.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.8-b/css/style.min.css">
+
+</head>
+<body>
+    <!-- Instructions Section -->
+<div class="columns is-centered">
+    <div class="column">
+        <div class="v-instruction-container">
+            <div class="v-collapsible is-size-5" id="task-description">
+                Instructions
+            </div>
+            <div class="v-content instruction-list">
+                <ul style="list-style: disc;">
+                    <li>Given below are space charge density plots of uniformly doped junction, linearly doped junction and hyper abrupt junction.</li>
+                    <li>Your task is to match the space charge denity plots to their respective categories</li>
+                    <li>Click on submit to verify your answers</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        <h1>Match the Following</h1>
+        <div class="column1">
+          <div class="left-column">
+            <canvas id="plot1" width="400" height="300"></canvas>
+            <canvas id="plot2" width="400" height="300"></canvas>
+            <canvas id="plot3" width="400" height="300"></canvas>
+          </div>
+          <svg id="lines" xmlns="http://www.w3.org/2000/svg"></svg>
+          <div class="right-column">
+            <ul>
+              <li data-id="1">Uniformly doped Junction</li>
+              <li data-id="2">Linearly graded Junction</li>
+              <li data-id="3">Hyperabrupt Junction</li>
+            </ul>
+          </div>
+        </div>
+        <button id="submit">Submit</button>
+        <p id="result"></p>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+            
+  <script src="js/em.js"></script>
+</body>
+</html>
